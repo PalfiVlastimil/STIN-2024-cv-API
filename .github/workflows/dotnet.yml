@@ -25,11 +25,11 @@ jobs:
     - name: Build
       run: dotnet build
     - name: Test
-      run: dotnet test #--collect: "XPlat Code Coverage"
+      run: dotnet test --collect:"XPlat Code Coverage"
 
     - name: Upload coverage reports to Codecov
       uses: codecov/codecov-action@v4.0.1
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
-        slug: PalfiVlastimil/STIN-2024-cv-API
+        #slug: PalfiVlastimil/STIN-2024-cv-API
         
