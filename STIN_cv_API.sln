@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STIN_cv_API", "STIN_cv_API\STIN_cv_API.csproj", "{90B79085-7244-4031-9197-9D7BC5E77CE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STIN_API_Tests", "STIN_API_Tests\STIN_API_Tests.csproj", "{D0750852-0E99-4027-BAAA-E0FA22406322}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{90B79085-7244-4031-9197-9D7BC5E77CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90B79085-7244-4031-9197-9D7BC5E77CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90B79085-7244-4031-9197-9D7BC5E77CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0750852-0E99-4027-BAAA-E0FA22406322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0750852-0E99-4027-BAAA-E0FA22406322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0750852-0E99-4027-BAAA-E0FA22406322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0750852-0E99-4027-BAAA-E0FA22406322}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
