@@ -47,6 +47,7 @@ namespace STIN_API_Tests
             var response = payment.ProcessPayment(json) as ObjectResult;
             string xmlOutput = "<Payment><Amount>1000</Amount><Currency>CZK</Currency><Date>2021-11-10</Date><PaymentType>CASH</PaymentType></Payment>";
             Assert.AreEqual(xmlOutput, response.Value);
+            //does this work
         }
 
         [TestMethod]
